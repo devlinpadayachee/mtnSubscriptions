@@ -1,0 +1,14 @@
+{
+  "name": "mtnsubscriptions",
+  "version": "1.0.0",
+  "description": "MTN subscription management application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^17.6.0"
+  }
+}
