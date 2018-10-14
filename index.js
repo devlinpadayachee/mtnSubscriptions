@@ -30,11 +30,11 @@ const init = async () => {
 
   await server.register({
     plugin: require('hapi-pino'),
-      options: {
-        prettyPrint: true,
-        logEvents: ['response']
-      }
-    });
+    options: {
+      prettyPrint: true,
+      logEvents: ['response']
+    }
+  });
 
   await server.start();
   console.log(`Server running at: ${server.info.uri}`);

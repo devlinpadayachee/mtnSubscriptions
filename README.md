@@ -1,22 +1,15 @@
 # Application for managing subscriber subscriptions
 
-##Usage
+## Usage
+
+## Testing
+
+```
+*npm test*
+```
+TDD is performed using the mocha testing framework in conjunction with chai assertion library (Expect).
 
 ```javascript
 
-var plugins = {
-	'elapsed-time':{}
-};
 
-server.pack.events.on('log', function (event, tags){
-	if (tags.elapsed) {
-		//do something with the elapsed event
-		console.log('elapsed, event);
-	}
-});
-
-server.pack.require(plugins, function (err) {
-	if (err) {throw err;}
-	// plugin required, start server
-});
 ```
